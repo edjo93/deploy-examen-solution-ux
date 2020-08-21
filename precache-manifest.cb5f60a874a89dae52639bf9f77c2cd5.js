@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "205fec443990335c58df767263996a7f",
+    "revision": "e52df6c87725da9e63ccccca7228b46e",
     "url": "/deploy-examen-solution-ux/index.html"
   },
   {
-    "revision": "1887ca1a1a47fa13d083",
+    "revision": "8afaf91bb73122cb08a6",
     "url": "/deploy-examen-solution-ux/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deploy-examen-solution-ux/static/js/2.af1e3377.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1887ca1a1a47fa13d083",
-    "url": "/deploy-examen-solution-ux/static/js/main.d5293cd4.chunk.js"
+    "revision": "8afaf91bb73122cb08a6",
+    "url": "/deploy-examen-solution-ux/static/js/main.31afa75b.chunk.js"
   },
   {
     "revision": "679583566400d3631b6e",

@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/deploy-examen-solution-ux/static/css/main.5f361e03.chunk.css",
-    "main.js": "/deploy-examen-solution-ux/static/js/main.1c030a90.chunk.js",
-    "main.js.map": "/deploy-examen-solution-ux/static/js/main.1c030a90.chunk.js.map",
+    "main.css": "/deploy-examen-solution-ux/static/css/main.b7a9ac75.chunk.css",
+    "main.js": "/deploy-examen-solution-ux/static/js/main.28222e16.chunk.js",
+    "main.js.map": "/deploy-examen-solution-ux/static/js/main.28222e16.chunk.js.map",
     "runtime-main.js": "/deploy-examen-solution-ux/static/js/runtime-main.4ecac6c4.js",
     "runtime-main.js.map": "/deploy-examen-solution-ux/static/js/runtime-main.4ecac6c4.js.map",
-    "static/js/2.af1e3377.chunk.js": "/deploy-examen-solution-ux/static/js/2.af1e3377.chunk.js",
-    "static/js/2.af1e3377.chunk.js.map": "/deploy-examen-solution-ux/static/js/2.af1e3377.chunk.js.map",
+    "static/css/2.11829350.chunk.css": "/deploy-examen-solution-ux/static/css/2.11829350.chunk.css",
+    "static/js/2.8dca9c55.chunk.js": "/deploy-examen-solution-ux/static/js/2.8dca9c55.chunk.js",
+    "static/js/2.8dca9c55.chunk.js.map": "/deploy-examen-solution-ux/static/js/2.8dca9c55.chunk.js.map",
     "index.html": "/deploy-examen-solution-ux/index.html",
-    "precache-manifest.19ff10fabbd3f89a5c66fd69043afcb4.js": "/deploy-examen-solution-ux/precache-manifest.19ff10fabbd3f89a5c66fd69043afcb4.js",
+    "precache-manifest.afc6f09278c8f6fec6ddae9a9db072c0.js": "/deploy-examen-solution-ux/precache-manifest.afc6f09278c8f6fec6ddae9a9db072c0.js",
     "service-worker.js": "/deploy-examen-solution-ux/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/deploy-examen-solution-ux/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.af1e3377.chunk.js.LICENSE.txt": "/deploy-examen-solution-ux/static/js/2.af1e3377.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/deploy-examen-solution-ux/static/media/logo.5d5d9eef.svg"
+    "static/css/2.11829350.chunk.css.map": "/deploy-examen-solution-ux/static/css/2.11829350.chunk.css.map",
+    "static/css/main.b7a9ac75.chunk.css.map": "/deploy-examen-solution-ux/static/css/main.b7a9ac75.chunk.css.map",
+    "static/js/2.8dca9c55.chunk.js.LICENSE.txt": "/deploy-examen-solution-ux/static/js/2.8dca9c55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ecac6c4.js",
-    "static/js/2.af1e3377.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.1c030a90.chunk.js"
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.8dca9c55.chunk.js",
+    "static/css/main.b7a9ac75.chunk.css",
+    "static/js/main.28222e16.chunk.js"
   ]
 }

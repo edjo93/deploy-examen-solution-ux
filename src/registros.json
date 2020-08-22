@@ -1,0 +1,25 @@
+{
+	
+	"array": [
+		{
+			"texto" : "tengo que entregar una tarea",
+			"fecha" : "21/ago/2020 09:31:50",
+			"etiquetas" : "react"
+
+
+		},
+
+		{
+			"texto" : "debo hacer examen",
+			"fecha" : "21/ago/2020 09:33:50",
+			"etiquetas" : "js"
+
+
+		}
+
+
+
+
+
+	]
+}

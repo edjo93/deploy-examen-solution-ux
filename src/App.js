@@ -1,33 +1,75 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+
+import Formulario from "./components/formulario.js"
+
+import {array} from  "./registros.json"
+console.log(array)
+
+class App extends Component {
+  constructor(){
+    super();
+    this.state ={
+
+      array
+    }
+  }
+
+  render() {
 
 
-function App() {
-  return (
-    <div>
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+    const tags=this.state.array.map((registro, i)=> {
+      return (
+
+        <div className= "col-lg-4 col-md-6">
+          
+          <div className= "card mt-4">
+            
+            <div className="card-header">
+              <h2 id="text_etiqueta">{registro.etiquetas}</h2>
+
+            </div>
+            <div className="card-body">
+              <p>
+                {registro.texto}
+                
+
+              </p>
+              <p>
+                {registro.fecha}
+                
+
+              </p>  
+
+            </div>
+            
+          </div>
+
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+
+
+      )
+
+
+    })
+
+    return (
+      <div className="app">
+        
+        <Formulario titulo = "APEL.io"/>
+        
+        <div className="container">
+          <div className="row  mt-4">
+            {tags}  
+          </div>
+            
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </form>
-    </div>
-  );
+        
+
+      </div>
+    );
+  }
 }
 
 export default App;
+

@@ -2,7 +2,29 @@
   text-align: center;
 }
 
+body{
+  background: #67B26F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 
+}
+
+.form-control{
+  font-style: italic;
+}
+
+#text_etiqueta{
+  text-align: center;
+}
+
+
+form{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;

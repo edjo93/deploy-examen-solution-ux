@@ -4,15 +4,27 @@ import "./App.css";
 import Formulario from "./components/formulario.js"
 
 import {array} from  "./registros.json"
-console.log(array)
+
 
 class App extends Component {
   constructor(){
     super();
     this.state ={
-
       array
     }
+
+    this.agregarNuevoReg=this.agregarNuevoReg.bind(this);
+
+  }
+
+
+  agregarNuevoReg(regi){
+    
+    this.setState({
+
+      array: [...this.state.array, regi]
+    })
+
   }
 
   render() {
@@ -54,9 +66,9 @@ class App extends Component {
     })
 
     return (
-      <div className="app">
+      <div className="App">
         
-        <Formulario titulo = "APEL.io"/>
+        <Formulario titulo = "APEL.io"  alAgregarReg={this.agregarNuevoReg}  />
         
         <div className="container">
           <div className="row  mt-4">

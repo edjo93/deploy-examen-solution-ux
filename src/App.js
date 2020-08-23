@@ -27,6 +27,15 @@ class App extends Component {
 
   }
 
+
+  delete(index) {
+    this.setState({
+      array: this.state.array.filter((e, i) => {
+        return i !== index
+      })
+    });
+  }
+
   render() {
 
 
@@ -54,7 +63,7 @@ class App extends Component {
               </p>  
 
             </div>
-            
+            <button class="delete-btn"   onClick={this.delete.bind(this, i)}>X</button>
           </div>
 
         </div>
@@ -77,9 +86,18 @@ class App extends Component {
             
         </div>
         
-
+        <blockquote class="blockquote mb-0 mt-4">
+          <p>“The secret of getting ahead is getting started.”</p>
+          <footer class="blockquote-footer"><cite title="Source Title">Mark Twain</cite></footer>
+        </blockquote>
       </div>
+
     );
+
+
+
+
+
   }
 }
 

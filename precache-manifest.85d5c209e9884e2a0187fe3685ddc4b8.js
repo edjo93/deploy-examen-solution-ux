@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26a72525e9f22191aa45b0fd2f3b3a1f",
+    "revision": "981df130fedf8319b16a27eb163cab97",
     "url": "/deploy-examen-solution-ux/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deploy-examen-solution-ux/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "6c9714bea84db30a8369",
-    "url": "/deploy-examen-solution-ux/static/css/main.b7a9ac75.chunk.css"
+    "revision": "55ac141fab9cbd0da824",
+    "url": "/deploy-examen-solution-ux/static/css/main.833c602f.chunk.css"
   },
   {
     "revision": "58ddc7e48c2b9ee23a97",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deploy-examen-solution-ux/static/js/2.85f37f10.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c9714bea84db30a8369",
-    "url": "/deploy-examen-solution-ux/static/js/main.bf8ae8d0.chunk.js"
+    "revision": "55ac141fab9cbd0da824",
+    "url": "/deploy-examen-solution-ux/static/js/main.f8932cb4.chunk.js"
   },
   {
     "revision": "679583566400d3631b6e",

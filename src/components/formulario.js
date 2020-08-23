@@ -1,22 +1,34 @@
 import React, { Component } from "react";
 
+
+/*import { array } from '../registros.json'*/
+
+var obj_date=new Date();
+
 class Formulario extends Component{
 	
+	
+
 	constructor () {
 	    super();
 	    this.state = {
 	      	texto : "",
-			fecha : "21/ago/2020 09:31:50",
+			fecha : obj_date.toLocaleDateString()+" " 
+					+ obj_date.getHours() + ":" + obj_date.getMinutes() 
+					+":" + obj_date.getSeconds(),
 			etiquetas : ""
 	    };
+
+	    
 	    this.manejarEntrada = this.manejarEntrada.bind(this);
 	    this.manejarSubmit = this.manejarSubmit.bind(this);
   	}	
 
 
+
+
 	manejarEntrada(e) {
 	  const {name, value} = e.target;
-	  console.log(name, value);
 	  this.setState({
 	     [name]: value
 	  });
@@ -26,10 +38,6 @@ class Formulario extends Component{
 	manejarSubmit(e){
 		e.preventDefault();
 		this.props.alAgregarReg(this.state);
-		console.log(this.state);
-
-		
-
 	}
   
 

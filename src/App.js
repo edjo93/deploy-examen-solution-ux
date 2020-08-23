@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
-
 import Formulario from "./components/formulario.js"
-
 import {array} from  "./registros.json"
+
+
+
 
 
 class App extends Component {
   constructor(){
     super();
+    
     this.state ={
       array
     }
@@ -18,12 +20,30 @@ class App extends Component {
   }
 
 
+
+  fechaActual(){
+
+    var obj_date=new Date();
+    
+    return obj_date.toLocaleDateString()+" " 
+    + obj_date.getHours() + ":" + obj_date.getMinutes() 
+    +":" + obj_date.getSeconds() 
+
+  }
+
+  
+
   agregarNuevoReg(regi){
     
     this.setState({
 
       array: [...this.state.array, regi]
+
+       
     })
+
+    
+    
 
   }
 
@@ -34,6 +54,8 @@ class App extends Component {
         return i !== index
       })
     });
+
+    
   }
 
   render() {

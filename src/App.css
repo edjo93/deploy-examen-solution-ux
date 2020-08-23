@@ -10,6 +10,20 @@ body{
 
 }
 
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-weight: 700;
+    padding: 5px 9px;
+    cursor: pointer;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+
 .form-control{
   font-style: italic;
 }
